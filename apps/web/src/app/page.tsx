@@ -1,11 +1,11 @@
 import { Button } from "@trepo/ui";
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <div className="">
-      <Button size={"lg"} className="text-indigo-accent bg-faded h-5">
-        Click
-      </Button>
+      <Button>Hello</Button>
     </div>
   );
 }
